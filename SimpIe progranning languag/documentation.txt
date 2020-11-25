@@ -1,0 +1,26 @@
+Tutorial for SimpIe progranning language™:
+
+Fun facts about SPL:
+It's file type is .ppl, wonder what that's named after!
+SPL doesn't care about whitespace
+Each chunk is 2 digits
+Since SPL doesn't care about whitespace, you can make really confusing looking programs
+A lot of SPL commands are based off of Beatnik
+The original Idea is based off of Multiline which is based off of OneLine which is based off of Brainfuck, neat!
+
+Add letter to stack - 00 (hexadecimal id for character)
+Print stack - 01 (dummy value)
+Clear stack - 02 (dummy value)
+Move top item in stack down - 03 (how much to move down)
+Pops top number in stack - 04 (dummy value)
+Get a input and add first letter to stack - 05 (dummy value)
+Swaps top 2 stack values - 06 (dummy value)
+Add the top 2 values - 07 (dummy value)
+Subtracts the top 2 values - 08 (dummy value)
+Copies the top value - 09 (dummy value)
+
+Moves back some spots if top stack value (but doesn't run current line its on) == 0 - 10 (places to move back)
+Moves forward some spots if top stack value (but doesn't run current line its on) != 0 - 11 (places to move forward)
+
+Crash/End the program - f0 (fun value)
+Dummy code - f1 (dummy value)
