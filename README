@@ -1,11 +1,13 @@
-Tutorial for SimpIe progranning language™:
+Tutorial for painless progranning language™:
 
-Fun facts about SPL:
-It's file type is .ppl, wonder what that's named after!
-SPL doesn't care about whitespace
+This is a fork of simple-programming-language (https://github.com/zenenbee/SimpIe-progranning-Ianguage)
+
+Fun facts about PPL:
+File extention doesn't matter but ppl is recomended
+PPL doesn't care about whitespace
 Each chunk is 2 digits
-Since SPL doesn't care about whitespace, you can make really confusing looking programs
-A lot of SPL commands are based off of Beatnik
+Since PPL doesn't care about whitespace, you can make really confusing looking programs
+A lot of PPL commands are based off of Beatnik
 The original Idea is based off of Multiline which is based off of OneLine which is based off of Brainfuck, neat!
 
 Add letter to stack - 00 (hexadecimal id for character)
@@ -24,3 +26,8 @@ Moves forward some spots if top stack value (but doesn't run current line its on
 
 Crash/End the program - f0 (fun value)
 Dummy code - f1 (dummy value)
+
+
+Usage:
+
+python run.py <filename>
