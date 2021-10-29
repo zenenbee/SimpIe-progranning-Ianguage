@@ -1,9 +1,14 @@
+import sys
 """Pain Programming Language"""
 
+input = str(sys.argv[1])
 
-with open('code.ppl','r') as f:
-
-    COD = f.readlines()
+try :
+    with open(input,'r') as f:
+        COD = f.readlines()
+except :
+    print("No such file or directory " + input)
+    exit()
 
 COD = ''.join(COD)
 COD = COD.replace('\n','')

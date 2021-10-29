@@ -24,3 +24,7 @@ Moves forward some spots if top stack value (but doesn't run current line its on
 
 Crash/End the program - f0 (fun value)
 Dummy code - f1 (dummy value)
+
+Usage:
+
+python run.py <filename>
